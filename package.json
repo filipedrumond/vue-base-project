@@ -12,13 +12,14 @@
     "hot": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "db": "json-server db.json"
+    "db": "node node_modules/json-server/lib/cli/bin.js db.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.5.1",
+    "json-server": "^0.16.1",
     "laravel-mix": "^5.0.4",
     "vue": "^2.6.11"
   },
