@@ -6,6 +6,17 @@
       "numero": 143,
       "bairro": "riacho da mata",
       "cidade": "sarzedo"
+    },
+    {
+      "teste2": "NOVA ENTRADA",
+      "id": 2
+    },
+    {
+      "logradouro": "rua de teste",
+      "numero": "582",
+      "bairro": "novo bairro",
+      "cidade": "sao paulo",
+      "id": 3
     }
   ]
 }

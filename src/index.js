@@ -1,14 +1,17 @@
 import Vue from 'vue';
 // import router from './router';
 import App from './App';
-// import VueResource from 'vue-resource';
+
+
 // import VueSession from 'vue-session';
 
 window.$ = $;
 window.jQuery = $;
 
+import VueResource from 'vue-resource';
+Vue.use(VueResource);
+
 Vue.config.productionTip = false;
-// Vue.use(VueResource);
 // Vue.use(VueSession);
 
 window.Vue = new Vue({
